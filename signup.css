@@ -1,0 +1,77 @@
+body {
+    background-image: url("Sandwich.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+  }
+  h1{
+    color: white;
+    font-family: Arial, Sans-serif;
+    letter-spacing: 10px;
+    margin: 30px;
+
+}
+h2{
+    color: white;
+    font-style:oblique;
+}
+p1{
+    color:white;
+    padding: 30px;
+    font-size: 25;
+    font-style:italic;
+    text-align:justify;
+    margin: 10px;
+}
+
+.forum{
+    color:white;
+    margin: 10px;
+}
+
+fieldset{
+    background-color:rgba(128, 128, 128, 0.733);
+}
+
+.ask{
+    margin: 10px 0px 0px;
+}
+
+.button{
+    background-color: rgba(128, 128, 128, 0.733);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-style:oblique;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+   margin: 10px 10px 10px;
+  }
+  .button:hover {
+    background-color: lightgrey;
+    color: white;
+    
+  }
+  
+  .buttonsub{
+    background-color: rgba(128, 128, 128, 0.733);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-style:oblique;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+   margin: 10px 10px 10px;
+  }
+  .buttonsub:hover {
+    background-color: lightgrey;
+    color: white;
+  }

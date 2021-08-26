@@ -1,0 +1,73 @@
+
+h1{
+    color: white;
+    font-family: Arial, Sans-serif;
+    letter-spacing: 10px;
+    margin: 50px;
+    padding:10px;
+}
+h2{
+    color: white;
+    font-style:oblique;
+}
+
+h3{
+    color: white;
+    font-style:oblique;
+    background-color:rgba(128, 128, 128, 0.733);
+}
+
+p{
+    color:white;
+    font-style:oblique;
+    font-size: 20;
+    text-align:justify;
+    margin: 25px 50px 75px;
+}
+
+
+body {
+    background-image: url("Sandwich.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button{
+    background-color: rgba(128, 128, 128, 0.733);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-style:oblique;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.8s;
+   margin: 10px 10px 10px;
+  }
+
+  .button:hover {
+    background-color: lightgrey;
+    color: white;
+    
+  }
+
+  img{
+     width:100px;
+     height:100px;
+     border-radius: 50%;
+     
+  }
+
+  p1{
+    color:black;
+    font-size: 25;
+    font-style:italic;
+    text-align:justify;
+    position:center;
+    margin: 75px 50px 75px;    
+}
+
+  
