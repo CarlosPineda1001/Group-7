@@ -2,6 +2,7 @@
 <head>
     <title>SandWich Club - Membership Signup</title>
     <link rel="stylesheet" href="signup.css">
+    <script src="features.js"></script>
 </head>
 <body>
 
@@ -20,18 +21,18 @@
 </fieldset>
 
 
-<p1>Please enter the Following</p1>
+<p1 id= header>Please enter the Following</p1>
 
 <fieldset>
     <legend style = "font-size:20; color:white;"> Applicant Information </legend>
     <div class = "forum">
-        <label for="Fname">First Name:</label>
+        <label for="Fname" id = "FnameLabel">First Name:</label>
         <input type="text" name = "Fname" id = "Fname">
 
-        <label for="Mname">Middle Name:</label>
+        <label for="Mname" id = "MnameLabel">Middle Name:</label>
         <input type="text" name = "Mname" id = "Mname">
         
-        <label for="Lname">Last Name:</label>
+        <label for="Lname" id = "LnameLabel">Last Name:</label>
         <input type="text" name = "Lname" id = "Lname">
     </div>
     </fieldset>
@@ -42,30 +43,30 @@
         <p1>The sandwiches will be sent to this address</p1>
         <div class = "forum">
            <div class = "ask">
-            <label for="Org">Organization:</label>
+            <label for="Org" id = "orgLabel">Organization:</label>
             <input type="text" name = "Org" id = "Org"  style ="width: 50%">
         </div>
         <div class = "ask">
-            <label for="Add1">Address line 1:</label>
-            <input type="text" name = "Add1" id = "Add1"style ="width: 50%">
+            <label for="Add1" id = "add1Label">Address line 1:</label>
+            <input type="text" name = "Add1" id = "Add1" style ="width: 50%">
         </div>
         <div class = "ask">
-            <label for="Add2">Address line 2:</label>
+            <label for="Add2" id="add2Label">Address line 2:</label>
             <input type="text" name = "Add2" id = "Add2"style ="width: 50%">
         </div>
         <div>
-            <label for="city">City:</label>
+            <label for="city" id="cityLabel">City:</label>
             <input type="text" name = "city" id = "city"style =" margin:10px;">
 
-            <label for="StPv">State or Province:</label>
+            <label for="StPv" id="StPvLabel">State or Province:</label>
             <input type="text" name = "StPv" id = "StPv"style =" margin:10px;">
         </div>
 
         <div>
-            <label for="country">Country:</label>
+            <label for="country" id = "countryLabel">Country:</label>
             <input type="text" name = "country" id = "country"style =" margin:10px;">
 
-            <label for="postcode">Postal Code:</label>
+            <label for="postcode" id = "postLabel">Postal Code:</label>
             <input type="text" name = "postcode" id = "postcode"style =" margin:10px;">
         </div>
     </div>
@@ -75,21 +76,21 @@
     <legend style = "font-size:20; color:white;"> Contact Information </legend>
         <div class = "forum">
            <div class = "ask">
-            <label for="num">Mobile Phone Number:</label>
+            <label for="num" id = "numLabel">Mobile Phone Number:</label>
             <input type="text" name = "num" id = "num"  style ="width: 50%">
         </div>
         <div class = "ask">
-            <label for="hnum">Home Phone Number:</label>
+            <label for="hnum"id ="hnumLabel">Home Phone Number:</label>
             <input type="text" name = "hnum" id = "hnum"style ="width: 50%">
         </div>
         <div class = "ask">
-            <label for="email">Email:</label>
+            <label for="email" id = "emailLabel">Email:</label>
             <input type="text" name = "email" id = "email"style ="width: 50%">
         </div>
     </fieldset>
 
 <center>
-    <div class = "buttonsub">
+    <div class = "buttonsub" onclick= "buttonClick()">
         <a href = # style = "color:inherit;text-decoration:none">
            SUBMIT
            </a>
